@@ -1,0 +1,39 @@
+@import url(font-awesome.min.css);
+
+/* Aller */
+@font-face {
+    font-family: 'Aller';
+    src: url('../fonts/aller/Aller_Rg.ttf');
+}
+@font-face {
+    font-family: 'Aller';
+    src: url('../fonts/aller/Aller_Lt.ttf');
+    font-weight: 100;
+}
+@font-face {
+    font-family: 'Aller';
+    src: url('../fonts/aller/Aller_Bd.ttf');
+    font-weight: bold;
+}
+@font-face {
+    font-family: 'Aller';
+    src: url('../fonts/aller/AllerDisplay.ttf');
+    font-weight: 900;
+}
+@font-face {
+    font-family: 'Aller';
+    src: url('../fonts/aller/Aller_It.ttf');
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Aller';
+    src: url('../fonts/aller/Aller_LtIt.ttf');
+    font-weight: 100;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Aller';
+    src: url('../fonts/aller/Aller_BdIt.ttf');
+    font-weight: bold;
+    font-style: italic;
+}
