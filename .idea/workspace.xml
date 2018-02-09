@@ -24,9 +24,12 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="132" column="87" lean-forward="false" selection-start-line="132" selection-start-column="87" selection-end-line="132" selection-end-column="87" />
-              <folding />
+            <state relative-caret-position="1552">
+              <caret line="110" column="73" lean-forward="false" selection-start-line="110" selection-start-column="73" selection-end-line="110" selection-end-column="73" />
+              <folding>
+                <element signature="n#style#0;n#span#0;n#section#4;n#div#0;n#div#0;n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#6406#6412#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -55,7 +58,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="-7" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
@@ -75,6 +78,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -83,11 +87,21 @@
               <item name="xucova.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="xucova.github.io" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
+            <path>
+              <item name="xucova.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xucova.github.io" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="xucova.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xucova.github.io" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="fonts" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -124,15 +138,16 @@
       <workItem from="1516658569222" duration="599000" />
       <workItem from="1517108088295" duration="3769000" />
       <workItem from="1517706214759" duration="7181000" />
-      <workItem from="1517727578113" duration="1066000" />
+      <workItem from="1517727578113" duration="1649000" />
+      <workItem from="1518151647966" duration="3025000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13740000" />
+    <option name="totallyTimeSpent" value="17348000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
+    <frame x="-7" y="0" width="974" height="1047" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13674322" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -176,9 +191,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2244">
+          <caret line="132" column="87" lean-forward="false" selection-start-line="132" selection-start-column="87" selection-end-line="132" selection-end-column="87" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#section#4;n#div#0;n#div#0;n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#6406#6412#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/elements.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="45" column="207" lean-forward="false" selection-start-line="45" selection-start-column="207" selection-end-line="45" selection-end-column="207" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1054">
           <caret line="62" column="49" lean-forward="true" selection-start-line="62" selection-start-column="49" selection-end-line="62" selection-end-column="49" />
-          <folding />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#section#4;n#div#0;n#div#0;n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#6406#6412#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -194,7 +231,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2006">
           <caret line="118" column="70" lean-forward="false" selection-start-line="118" selection-start-column="70" selection-end-line="118" selection-end-column="70" />
-          <folding />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#section#4;n#div#0;n#div#0;n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#6406#6412#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -210,7 +250,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="901">
           <caret line="53" column="54" lean-forward="false" selection-start-line="53" selection-start-column="54" selection-end-line="53" selection-end-column="54" />
-          <folding />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#section#4;n#div#0;n#div#0;n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#6406#6412#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -226,7 +269,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="901">
           <caret line="53" column="54" lean-forward="false" selection-start-line="53" selection-start-column="54" selection-end-line="53" selection-end-column="54" />
-          <folding />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#section#4;n#div#0;n#div#0;n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#6406#6412#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -240,9 +286,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="132" column="87" lean-forward="false" selection-start-line="132" selection-start-column="87" selection-end-line="132" selection-end-column="87" />
-          <folding />
+        <state relative-caret-position="1552">
+          <caret line="110" column="73" lean-forward="false" selection-start-line="110" selection-start-column="73" selection-end-line="110" selection-end-column="73" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#section#4;n#div#0;n#div#0;n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#6406#6412#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
