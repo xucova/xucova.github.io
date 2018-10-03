@@ -1,0 +1,9 @@
+.fa-simplybuilt {
+    transform: scaleY(-1) !important;
+}
+.fa-mobile-phone::before, .fa-question-circle::before {
+    font-size: 2em !important;
+}
+.fa-mobile-phone::before, .fa-code::before, .fa-cube::before, .fa-question-circle::before, .fa-link::before {
+    font-weight: bold !important;
+}
