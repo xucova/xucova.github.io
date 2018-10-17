@@ -177,21 +177,39 @@
 							<div class="split style1">
 								<section>
 									<form method="post" action="https://formspree.io/contact@xucova.com">
-										<div class="field half first">
-											<label for="name">Name</label>
-											<input type="text" name="name" id="name" />
-										</div>
-										<div class="field half">
-											<label for="email">Email</label>
-											<input type="text" name="email" id="email" />
-										</div>
-										<div class="field">
-											<label for="message">Message</label>
-											<textarea name="message" id="message" rows="5"></textarea>
-										</div>
-										<ul class="actions">
-											<li><a href="" class="button submit">Submit</a></li>
-										</ul>
+                                        <div class="row uniform">
+                                            <div class="6u 12u$(xsmall)">
+                                                <input type="text" name="name" id="name" placeholder="Name" required/>
+                                            </div>
+                                            <div class="6u 12u$(xsmall)">
+                                                <input type="text" name="email" id="email" placeholder="Email" required/>
+                                            </div>
+                                            <div class="12u$">
+                                                <!--<div class="select-wrapper custom-select">-->
+                                                <div class="custom-select">
+                                                    <select name="category" id="category" required>
+                                                        <option value="">Category</option>
+                                                        <option value="website">Website Development</option>
+                                                        <option value="graphic">Graphic Design</option>
+                                                        <option value="app">App Development</option>
+                                                        <option value="vr">Virtual Reality</option>
+                                                        <option value="iot">Internet of Things</option>
+                                                        <option value="3d">3D Printing</option>
+                                                        <option value="blockchain">Blockchain</option>
+                                                        <option value="consulting">Consulting</option>
+                                                        <option value="other">Other</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="12u$">
+                                                <textarea name="message" id="message" rows="5" placeholder="Message" required></textarea>
+                                            </div>
+                                            <div class="12u$">
+                                                <ul class="actions">
+                                                    <li><a href="" class="button submit">Submit</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
 									</form>
 								</section>
 								<section>

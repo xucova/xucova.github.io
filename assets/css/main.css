@@ -1632,7 +1632,7 @@
 
 /* Type */
 
-	body, input, select, textarea {
+	body, input, select, textarea, .select-selected {
 		color: rgba(255, 255, 255, 0.55);
 		font-family: Arial, Helvetica, sans-serif;
 		font-size: 16.5pt;
@@ -1642,7 +1642,7 @@
 
 		@media screen and (max-width: 1680px) {
 
-			body, input, select, textarea {
+			body, input, select, textarea, .select-selected{
 				font-size: 13pt;
 			}
 
@@ -1650,7 +1650,7 @@
 
 		@media screen and (max-width: 1280px) {
 
-			body, input, select, textarea {
+			body, input, select, textarea, .select-selected {
 				font-size: 12pt;
 			}
 
@@ -1658,7 +1658,7 @@
 
 		@media screen and (max-width: 360px) {
 
-			body, input, select, textarea {
+			body, input, select, textarea, .select-selected {
 				font-size: 11pt;
 			}
 
@@ -2330,7 +2330,8 @@
 	input[type="email"],
 	input[type="tel"],
 	select,
-	textarea {
+	textarea,
+    .select-selected {
 		-moz-appearance: none;
 		-webkit-appearance: none;
 		-ms-appearance: none;
@@ -2407,7 +2408,8 @@
 	input[type="text"],
 	input[type="password"],
 	input[type="email"],
-	select {
+	select,
+    .select-selected {
 		height: 2.75em;
 	}
 

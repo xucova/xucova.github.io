@@ -7,3 +7,64 @@
 .fa-mobile-phone::before, .fa-code::before, .fa-cube::before, .fa-question-circle::before, .fa-link::before {
     font-weight: bold !important;
 }
+
+.custom-select {
+    position: relative;
+}
+.custom-select select {
+    display: none;
+}
+.select-selected:after {
+    color: rgba(255, 255, 255, 0.15);
+    content: '\f078';
+    display: block;
+    height: 2.75em;
+    line-height: 2.75em;
+    pointer-events: none;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 0;
+    width: 2.75em;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-transform: none !important;
+}
+.select-selected.select-arrow-active:after {
+    content: '\f077';
+    color: #fff;
+}
+.select-selected.select-arrow-active {
+    border-color: #ffffff;
+    box-shadow: 0 0 0 1px #ffffff;
+}
+.select-items div,.select-selected {
+    padding: 8px 16px;
+    cursor: pointer;
+}
+.select-items {
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 0 0 0.25em 0.25em;
+    border: none;
+    border: solid 1px rgba(255, 255, 255, 0.15);
+    border-top-width: 0;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 99;
+}
+.select-hide {
+    display: none;
+}
+.select-items div:hover, .same-as-selected {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+@media screen and (min-width: 481px) {
+    #contact .actions {
+        float: right;
+    }
+}
